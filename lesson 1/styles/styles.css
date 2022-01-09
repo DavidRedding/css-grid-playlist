@@ -4,6 +4,9 @@ body {
   text-align: center;
 }
 #content {
+  /* 3 even grid-columns */
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
   max-width: 960px;
   margin: 0 auto;
 }
